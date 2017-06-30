@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIMETABLE VISUALIZER</title>
+</head>
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" bgcolor="#b5dcb3">
+      <h1><style="text-align:center;">TIMETABLE VISUALIZER</h1>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td bgcolor="white" width="250">
+      <b>Main Menu</b><br />
+      <form name="timetable">
+
+<input type="radio" name="term" value="term1">Term 1 </br>
+<input type="radio" name="term" value="term1">Term 2 </br>
+<input type="radio" name="term" value="term1">Summer </br>
+
+  <input type="checkbox" name="corecourse" value="course">Only core courses </br>
+ 
+<input type="submit" value="Refresh timetable"\/> </br>
+
+  <input type="reset" value="Clear Timetable"/> </br>
+
+  Search By professor:
+  <select name="professor">
+<option value="fazackerley">S.Fazackerley</option>
+
+//drop list
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+<option value="D">D</option>
+<option value="E">E</option>
+<input type="submit" value="submit"\/> </br>
+    </td>
+    <td bgcolor="#eee" width="100" height="200">
+<input type="button" value="Import Ed plan" name="import"/>   
+<input type="button" value="Export Ed plan" name="export"/>    </td>
+</tr>
+<table border="1" width="1000">
+  <tr>
+    <th> Monday</th>
+	<th> Tuesday</th>
+    <th> Wednesday</th>
+    <th> Thursday</th>
+    <th> Friday</th>
+    </table>
+  </tr>
+  
+</table>
+
+
+</head>
+</body>
+</html>
